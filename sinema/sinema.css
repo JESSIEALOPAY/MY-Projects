@@ -1,0 +1,78 @@
+body{
+    background-image: url('https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg');
+    background-position: center;
+    max-height: 736px; 
+    max-width:1092px ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: rgb(255, 249, 249);
+    
+    
+}
+
+.seat{
+    background-color:rgb(51, 50, 50) ;
+    height: 23px;
+    width: 23px;
+    margin: 3px;
+    border-radius: 5px;
+
+}
+.row{
+    display: flex;
+}
+.seat.selected{
+    background-color:rgb(206, 206, 33) ;
+}
+.seat.reserved{
+    background-color: rgb(170, 6, 6);
+}
+
+.seat:not(.reserved):hover{
+   cursor: pointer;
+   transform: scale(1.3)
+}
+.seat:nth-of-type(3){
+    margin-right: 33px;
+}
+.seat:nth-last-of-type(3){
+    margin-left: 33px;
+}
+.screen{
+    background-color: white;
+    background-image: url(https://i0.wp.com/teknodonanim.org/wp-content/uploads/2019/04/Avengers-endgame-1.jpg?fit=630%2C358&ssl=1);
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    margin: 35px 0;
+}
+.movie-list{
+    margin: 25px 0;
+}
+.info{
+    color: rgb(219, 195, 195);
+    padding:7px 14px;
+    display: flex;
+    background-color: rgba(235, 235, 235, 0.1)
+    
+}
+.info li {
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+p {
+    padding: 0 15px;
+    height: 25px;
+    background-color: rgb(212, 8, 8);
+}
+p.text span{
+    color: yellow;
+}
