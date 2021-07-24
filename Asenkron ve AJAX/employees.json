@@ -1,0 +1,32 @@
+[
+    {
+        "firstName": "Travis",
+        "lastName": "Kelce",
+        "Number": 87,
+        "isQB": false
+    },
+    {
+        "firstName": "Patrick",
+        "lastName": "Mahomes",
+        "Number": 15,
+        "isQB": true
+    },
+    {
+        "firstName": "Tyreek",
+        "lastName": "Hill",
+        "Number": 10,
+        "isQB": false
+    },
+    {
+        "firstName": "Rob",
+        "lastName": "Gronkowski",
+        "Number": 87,
+        "isQB": false
+    },
+    {
+        "firstName": "Tom",
+        "lastName": "Brady",
+        "Number": 12,
+        "isQB": true
+    }
+]
