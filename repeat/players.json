@@ -1,0 +1,34 @@
+[
+    {
+        "firstName":"Stephen",
+        "lastName":"Curry",
+        "Number":30,
+        "isMVP":true
+    },
+    {
+        "firstName":"Lebron",
+        "lastName":"James",
+        "Number":23,
+        "isMVP":true
+    },
+    {
+        "firstName":"Klay",
+        "lastName":"Thomson",
+        "Number":11,
+        "isMVP":false
+    },
+    {
+        "firstName":"James",
+        "lastName":"Harden",
+        "Number":13,
+        "isMVP":true
+    },
+    {
+        "firstName":"Jason",
+        "lastName":"TAtum",
+        "Number":0,
+        "isMVP":false
+    }
+    
+    
+]
