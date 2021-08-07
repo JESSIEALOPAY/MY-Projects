@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        #imdbPoint-MD{
+            background-color: blue;
+        }
+        .badge-primary{
+            background-color: blue;
+        }
+        .badge-danger{
+            background-color: rgb(250, 18, 69);
+        }
+        .card-header.text-right{
+            text-align: right;
+        }
+        body{
+            
+            background-image: url('https://cdn.dsmcdn.com//ty8/product/media/images/20200721/10/5413171/77702759/1/1_org_zoom.jpg');
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body id="body">
+    <div class="navbar navbar-dark bg-danger mb-3">
+        <div class="container justify-content-center">
+            <a href="#" class="navbar-brand">Movie Finder</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card mb-5">
+            <div class="card-body">
+                <form id="form-search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Type-keyword" name="keyword" id="txt-keyword">
+                        <div class="input-group-append">
+                            <input type="submit" value="Submit" class="btn btn-outline-primary" id="btn-submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="movie-details-container" class="card mt-3 d-none">
+            <div class="card-header text-right">
+                <button id="movie-details-close" class="btn btn-danger" >X</button>
+            </div>
+            <div class="card-body">
+                <div id="movie-details">
+            
+                </div>
+            </div>
+        </div>
+      
+        <div id="movie-list-container" class="card mt-3 d-none">
+            <div class="card-header">
+                <span id="movie-list-header">  </span>
+             </div>
+            <div class="card-body">
+                <ul class="list-unstyled" id="results">
+                    
+                </ul>
+            </div>
+        </div>
+        
+
+       
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
