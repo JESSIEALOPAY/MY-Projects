@@ -1,0 +1,22 @@
+{
+  "employees": [
+    {
+      "name": "Travis Kelce",
+      "department": "TD",
+      "salary": 23000,
+      "id": 1
+    },
+    {
+      "name": "Patrick Mahommes",
+      "department": "QuerterBack",
+      "salary": 55000,
+      "id": 2
+    },
+    {
+      "name": "Tom Brady",
+      "department": "QB",
+      "salary": 35000,
+      "id": 3
+    }
+  ]
+}
