@@ -133,15 +133,18 @@
 
 let people=[ 
     {name:'burak', lastname:'gurcan'},
-    {name:'yunus',lastname:'çiftçi'},
-    {name:'kerem', lastname:'çelik'}
+    {name:'kerem', lastname:'çelik'},
+    {name:"jessie",lastname:'alopay'},
+    {name:"alopay",lastname:'chris'},
+    {name:"her biri",lastname:'hayran sana'}
 ]
 
 let val;
 val=people.map(function(item){
-    return item.name+' '+ item.lastname
+    return item.name+'/'+ item.lastname
 })
 console.log(val)
+console.log(typeof val)
 // for(let i in people){
 //     console.log(people[i])
 // }
